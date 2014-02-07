@@ -28,7 +28,7 @@
       }
 
       // Append toggle link to the main menu.
-      $('nav#main-menu').append('<a href="#" id="menu-toggle">' + Drupal.t('Menu') + '</a>');
+      $('div#main-menu').append('<a href="#" id="menu-toggle">' + Drupal.t('Menu') + '</a>');
 
       // Collapse/expand menu by click on link.
       $('a#menu-toggle').click(function() {
