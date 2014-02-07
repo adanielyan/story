@@ -3,6 +3,8 @@ description = This is a sub-theme of Responsive Bartik theme.
 core = 7.x
 base theme = responsive_bartik
 
+scripts[] = js/main-menu.js
+
 regions[header] = Header
 regions[main_menu] = Main menu
 regions[help] = Help
